@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heal Plus</title>
+    <link rel="icon" type="image/icon" href="hp.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid" style="background-color: rgb(48, 167, 129);padding: 1%;">
+        <div class="row">
+            <div class="col-md-2 text-center" style="font-family: Candara;"><a href="index.html" style="color: white;text-decoration: none;"><h2><i class="fa fa-heartbeat" aria-hidden="true"></i>&nbsp;&nbsp;Heal Plus</h2></a></div>
+            <div class="col-md-5" style="display: flex;margin-top: 1%;">
+                <input type="text" class="form-control" placeholder="Search for medicines & wellness products...">&nbsp;
+                <button type="button" class="btn" data-toggle="modal" data-target="#search">SEARCH</button>
+                <div class="modal fade" id="search" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h5>DUE TO SOME TECHNICAL ISSUES, SEARCH ENGINE IS NOT WORKING!!</h5>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 text-center dropdown" style="margin-top: 1%;">
+                <a href="" class="anc" data-toggle="dropdown"><h4>Categories<span class="caret"></span></h4></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html" class="drp"><h4><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Home</h4></a></li>
+                    <li><a href="medicine.html" class="drp"><h4><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Medicine</h4></a></li>
+                    <li><a href="wellness.html" class="drp"><h4><i class="fa fa-male" aria-hidden="true"></i>&nbsp;Wellness</h4></a></li>
+                    <li><a href="lab.html" class="drp"><h4><i class="fa fa-flask" aria-hidden="true"></i>&nbsp;Lab Tests</h4></a></li>
+                    <li><a href="beauty.html" class="drp"><h4><i class="fa fa-magic" aria-hidden="true"></i>&nbsp;Beauty</h4></a></li>
+                    <li><a href="ayurvedic.html" class="drp"><h4><i class="fa fa-pagelines" aria-hidden="true"></i>&nbsp;Ayurvedic</h4></a></li>
+                  </ul>
+            </div>
+            <div class="col-md-1 text-center links" style="margin-top: 1%;">
+                <a href="cart.html" class="anc"><h4><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Cart</h4></a>
+            </div>
+            <div class="col-md-2 text-center" style="margin-top: 1%;">
+                <h4 class="point links" data-toggle="modal" data-target="#signin"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;&nbsp;Sign In / Sign Up</h4>
+                <div class="modal fade" id="signin" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2><b>Sign In / Sign Up</b></h2>
+                            <p>Sign up or Sign in to access your orders, special offers, health tips and more!</p>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="text-left" style="color: rgb(48, 167, 129);">Phone Number</h4>
+                            <input type="text" class="form-control" placeholder="Enter Your Mobile Number">
+                            <br/>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8"><button class="btn form-control" style="background-color: rgb(48, 167, 129);color: white;">Generate OTP</button></div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <br/>
+                            <div class="text-center"><h5>OR</h5></div>
+                            <br/>
+                            <div class="form-row">
+                                <div class="col-md-6"><button class="btn form-control" style="background: lightgray;"><i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;Continue with Google</button></div>
+                                <div class="col-md-6"><button class="btn form-control" style="background: lightgray;"><i class="fa fa-windows" aria-hidden="true"></i>&nbsp;&nbsp;Continue with Microsoft</button></div><br/>
+                            </div>
+                            <br/>
+                            <br/>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #e6ebe7;padding: 2%;">
+        <div style="background-color: white;padding: 2%;">
+            <h2>Popular Tests</h2>
+            <p>and many more tests nad packages <span><b>@ THE BEST PRICES</b></span></p>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Complete Hemogram</h4>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Liver Profile</h4>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Diabetes</h4>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Lipid Profile</h4>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Thyroid Profile</h4>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Iron Deficiency</h4>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Vitamin</h4>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Testosterone</h4>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="hg"><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;Kidney Function Test</h4>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+        <br>
+        <h2><b>Top Selling Packages</b></h2>
+        <p>Choose from the list of top-selling packages tailored for you. We care for your health!</p>
+        <br/>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="pack">
+                    <h4><b>Heal Plus Swasthya</b></h4>
+                    <p>Book Regular Health Check-up Package Heal Plus Swasthya,our Heal Plus Health Pack comprises a Basic Screening Preventive Health Check-up Profile including 64 tests.</p>
+                    <h3 style="color: rgb(210, 43, 71);"><b>Rs.1100</b></h3>
+                    <div class="text-center">
+                        <button class="btn form-control" data-toggle="modal" data-target="#book" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pack">
+                    <h4><b>Heal Plus Shield Pack</b></h4>
+                    <p>Heal Plus Shield Pack helps to protect against a particular danger or risk. It includes a unique diagnostic profile of 56 tests for a comprehensive health evaluation.</p>
+                    <h3 style="color: rgb(210, 43, 71);"><b>Rs.900</b></h3>
+                    <div class="text-center">
+                        <button class="btn form-control" data-toggle="modal" data-target="#book" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pack">
+                    <h4><b>Heal Plus Health Pack</b></h4>
+                    <p>Health check-ups are very useful in the early detection of all types of illnesses and risk factors. 35 parameters of regular tests that have been specially designed keeping your health in mind.</p>
+                    <h3 style="color: rgb(210, 43, 71);"><b>Rs.499</b></h3>
+                    <div class="text-center">
+                        <button class="btn form-control" data-toggle="modal" data-target="#book" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pack">
+                    <h4><b>Heal Plus Diabetic Checkup</b></h4>
+                    <p>Meant for people who want to get regular reports to prevent/check their diabetes levels.Simple to understand and less time consuming, It includes 49 tests.</p>
+                    <h3 style="color: rgb(210, 43, 71);"><b>Rs.899</b></h3>
+                    <div class="text-center">
+                        <button class="btn form-control" data-toggle="modal" data-target="#book" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="pack">
+                    <h4><b>ECHO</b></h4>
+                    <p>Echocardiography or ECHO, is a painless test that uses sound waves to create moving pictures of your heart.</p>
+                    <h3 style="color: rgb(210, 43, 71);"><b>Rs.1600</b></h3>
+                    <div class="text-center">
+                        <button class="btn form-control" data-toggle="modal" data-target="#book" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pack">
+                    <h4><b>ECG</b></h4>
+                    <p>An ECG is a simple and valuable test. Sometimes it can definitely diagnose a heart problem. The electrocardiogram (ECG)...</p>
+                    <h3 style="color: rgb(210, 43, 71);"><b>Rs.250</b></h3>
+                    <div class="text-center">
+                        <button class="btn form-control" data-toggle="modal" data-target="#book" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pack">
+                    <h4><b>PET Scan</b></h4>
+                    <p>PET scan may detect the early disease before imaging tests can.The PET scan used to show both normal and abnormal metabolic activity.</p>
+                    <h3 style="color: rgb(210, 43, 71);"><b>Rs.9600</b></h3>
+                    <div class="text-center">
+                        <button class="btn form-control" data-toggle="modal" data-target="#book" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pack">
+                    <h4><b>Ultrasound Whole Abdomen</b></h4>
+                    <p>Ultrasound is used to study the development of an unborn baby, abdominal and pelvic organs and blood vessels.</p>
+                    <h3 style="color: rgb(210, 43, 71);"><b>Rs.999</b></h3>
+                    <div class="text-center">
+                        <button class="btn form-control" data-toggle="modal" data-target="#book" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="book" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body" style="padding: 6%;">                       
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <p>Please fill the details</p>
+                        <h4 class="text-left" style="color: rgb(48, 167, 129);"><b>Name</b></h4>
+                        <input type="text" class="form-control" placeholder="Enter Your Name">
+                        <br>
+                        <h4 class="text-left" style="color: rgb(48, 167, 129);"><b>Phone Number</b></h4>
+                        <input type="number" class="form-control" placeholder="Enter Your Mobile Number">
+                        <br>
+                        <h4 class="text-left" style="color: rgb(48, 167, 129);"><b>Pincode</b></h4>
+                        <input type="number" class="form-control" placeholder="Enter Your pincode">
+                        <br>
+                        <h4 class="text-left" style="color: rgb(48, 167, 129);"><b>Select Package</b></h4>
+                        <input type="text" class="form-control" list="packages" name="package" id="package" placeholder="Select">
+                        <datalist id="packages">
+                            <option>Heal Plus Swasthya</option>
+                            <option>Heal Plus Shield Pack</option>
+                            <option>Heal Plus Health Pack</option>
+                            <option>Heal Plus Diabetic Checkup</option>
+                            <option>ECHO</option>
+                            <option>ECG</option>
+                            <option>PET Scan</option>
+                            <option>Ultrasound Whole Abdomen</option>
+                        </datalist>
+                        <br/>
+                        &nbsp;&nbsp;<input type="checkbox" name="">&nbsp;<b>I agree to Heal Plus Terms and Conditions.</b>
+                        <br/>
+                        <br/>
+                        <button class="btn form-control" style="background-color: rgb(48, 167, 129);color: white;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div style="background-color: white;padding: 2%;">
+            <h2>Lab Partner</h2>
+            <p>We provide lab tests and health packages from well-reputed, certified diagnostic labs across the country.</p>
+            <div class="row">
+                <div class="col-md-2 text-center">
+                    <img src="ph1.jpg" class="img" height="50px">
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="ph2.jpg" class="img" height="50px">
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="ph3.jpg" class="img" height="50px">
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="ph4.jpg" class="img" height="50px">
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="ph5.jpg" class="img" height="50px">
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="ph6.jpg" class="img" height="50px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"><a href="index.html" style="color: rgb(48, 167, 129);text-decoration: none;font-family: Candara;"><h1><i class="fa fa-heartbeat" aria-hidden="true"></i>&nbsp;&nbsp;Heal Plus</h1></a></div>
+            <div class="col-md-8" style="margin-top: 2%;"><p>Heal Plus is one of India's most trusted pharmacies, dispensing quality medicines at reasonable prices to over 7 million happy customers - PAN India.</p></div>
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="point"><b>COMAPNY</b></h5>
+                <h5 class="point">About Heal Plus</h5>
+                <h5 class="point">Customers Speak</h5>
+                <h5 class="point">in the News</h5>
+                <h5 class="point">Career</h5>
+                <h5 class="point">Terms and Conditionds</h5>
+                <h5 class="point">Privacy Policy</h5>
+                <h5 class="point">Fees and payments policy</h5>
+                <h5 class="point">Shipping and delivery Policy</h5>
+                <h5 class="point">Return, refund and Cancellation Policy</h5>
+                <h5 class="point">Contact</h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="point"><b>SHIPPING</b></h5>
+                <h5 class="point">Browse by A-Z</h5>
+                <h5 class="point">Browse by Manufactures</h5>
+                <h5 class="point">Health Articles</h5>
+                <h5 class="point">Offers and Coupons</h5>
+                <h5 class="point">FAQs</h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="point"><b>SOCIAL</b></h5>
+                <h5 class="point">Patients Alike</h5>
+                <h5 class="point">Facebook</h5>
+                <h5 class="point">Twitter</h5>
+                <h5 class="point">LinkedIn</h5>
+                <h5 class="point">Youtube</h5>
+                <h5 class="point">Refer & Earn</h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="point"><b>SUBSCRIBE TO OUR NEWSLETTER</b></h5>
+                <h5 class="point">Get a free subscription to our health and fitness tip and stay tuned to our latest offers</h5>
+                <br>
+                <input class="form-control" type="email" placeholder="Enter your Email">
+                <br>
+                <button class="btn form-control" style="background-color: rgb(48, 167, 129);color: white;">Submit</button>
+            </div>
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <div class="text-center">Copyright &copy; 2022. All Rights are Reserved</div>
+    </div>

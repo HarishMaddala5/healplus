@@ -1,0 +1,89 @@
+a:hover{
+    text-decoration: none;
+}
+.point:hover{
+    cursor: pointer;
+}
+.links{
+    color: white;
+}
+.not{
+    background-color: white;
+    padding: 5%;
+    border-radius: 15px;
+}
+.cart{
+    background-color: white;
+    border-radius: 15px;
+}
+.not:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 8px rgb(197, 192, 192);
+}
+.cart:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 8px rgb(197, 192, 192);
+}
+.app{
+    background-color: black;
+    color: white;
+}
+.hid{
+    display: none;
+}
+@media screen and (max-width:999px){
+    .md{
+        margin-top: 1%;
+    }
+    .blc{
+        display: none;
+    }
+    .hid{
+        display: block;
+    }
+}
+@media screen and (max-width:1439px) and (min-width:1000px){
+    .blc{
+        height: 190px;
+    }
+}
+.anc{
+    color: white;
+}
+.anc:hover{
+    color: white;
+}
+.anch{
+    color: black;
+}
+.anch:hover{
+    color: black;
+}
+.drp{
+    color: rgb(48, 167, 129) !important;
+}
+.drp:hover{
+    color: rgb(48, 167, 129) !important;
+    background-color: transparent !important;
+}
+.hc{
+    background-color: white;
+    border-radius: 15px;
+}
+.hc:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 8px rgb(197, 192, 192);
+}
+.pack{
+    background-color: rgb(233, 224, 211);
+    border-radius: 10px;
+    padding: 5%;
+}
+.hg:hover{
+    font-size: 20px;
+    color: rgb(48, 167, 129);
+    cursor: pointer;
+}
+.dn{
+    margin-bottom: 99%;
+}

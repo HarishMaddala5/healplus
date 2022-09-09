@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heal Plus</title>
+    <link rel="icon" type="image/icon" href="hp.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        h5:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" style="background-color: rgb(48, 167, 129);padding: 1%;">
+        <div class="row">
+            <div class="col-md-2 text-center" style="font-family: Candara;"><a href="index.html" style="color: white;text-decoration: none;"><h2><i class="fa fa-heartbeat" aria-hidden="true"></i>&nbsp;&nbsp;Heal Plus</h2></a></div>
+            <div class="col-md-5" style="display: flex;margin-top: 1%;">
+                <input type="text" class="form-control" placeholder="Search for medicines & wellness products...">&nbsp;
+                <button type="button" class="btn" data-toggle="modal" data-target="#search">SEARCH</button>
+                <div class="modal fade" id="search" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h5>DUE TO SOME TECHNICAL ISSUES, SEARCH ENGINE IS NOT WORKING!!</h5>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 text-center dropdown" style="margin-top: 1%;">
+                <a href="" class="anc" data-toggle="dropdown"><h4>Categories<span class="caret"></span></h4></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html" class="drp"><h4><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Home</h4></a></li>
+                    <li><a href="medicine.html" class="drp"><h4><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Medicine</h4></a></li>
+                    <li><a href="wellness.html" class="drp"><h4><i class="fa fa-male" aria-hidden="true"></i>&nbsp;Wellness</h4></a></li>
+                    <li><a href="lab.html" class="drp"><h4><i class="fa fa-flask" aria-hidden="true"></i>&nbsp;Lab Tests</h4></a></li>
+                    <li><a href="beauty.html" class="drp"><h4><i class="fa fa-magic" aria-hidden="true"></i>&nbsp;Beauty</h4></a></li>
+                    <li><a href="ayurvedic.html" class="drp"><h4><i class="fa fa-pagelines" aria-hidden="true"></i>&nbsp;Ayurvedic</h4></a></li>
+                  </ul>
+            </div>
+            <div class="col-md-1 text-center links" style="margin-top: 1%;">
+                <a href="cart.html" class="anc"><h4><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;Cart</h4></a>
+            </div>
+            <div class="col-md-2 text-center" style="margin-top: 1%;">
+                <h4 class="point links" data-toggle="modal" data-target="#signin"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;&nbsp;Sign In / Sign Up</h4>
+                <div class="modal fade" id="signin" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2><b>Sign In / Sign Up</b></h2>
+                            <p>Sign up or Sign in to access your orders, special offers, health tips and more!</p>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="text-left" style="color: rgb(48, 167, 129);">Phone Number</h4>
+                            <input type="text" class="form-control" placeholder="Enter Your Mobile Number">
+                            <br/>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8"><button class="btn form-control" style="background-color: rgb(48, 167, 129);color: white;">Generate OTP</button></div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <br/>
+                            <div class="text-center"><h5>OR</h5></div>
+                            <br/>
+                            <div class="form-row">
+                                <div class="col-md-6"><button class="btn form-control" style="background: lightgray;"><i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;Continue with Google</button></div>
+                                <div class="col-md-6"><button class="btn form-control" style="background: lightgray;"><i class="fa fa-windows" aria-hidden="true"></i>&nbsp;&nbsp;Continue with Microsoft</button></div><br/>
+                            </div>
+                            <br/>
+                            <br/>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #e6ebe7;padding: 2%;">
+        <div class="container">
+            <h2 style="color: rgb(48, 167, 129);"><b>Find Your Prescription Medicines</b></h2>
+            <p style="color: rgb(48, 167, 129);">Shop by <span style="font-style: italic;">Drug Category</span></p>
+            <br/>
+            <div class="row">
+                <div class="col-md-3">
+                    <h4><b>A</b></h4>
+                    <h5>ADHD (9)</h5>
+                    <h5>Acne (540)</h5>
+                    <h5>Alcohol Addiction (13)</h5>
+                    <h5>Allergies (1432)</h5>
+                    <h5>Alzheimer (159)</h5>
+                    <h5>Amoebiasis (25)</h5>
+                    <h5>Anaemia (674)</h5>
+                    <h5>Anaesthesia - Local (84)</h5>
+                    <h5>Anaesthesia General (3)</h5>
+                    <h5>Anal Fissure (2)</h5>
+                    <h5>Angina (390)</h5>
+                    <h5>Anti-Scar (0)</h5>
+                    <h5>Anxiety (56)</h5>
+                    <h5>Apnea (1)</h5>
+                    <h5>Appetite (66)</h5>
+                    <h5>Arrhythmiasis (33)</h5>
+                    <h5>Arthritis (203)</h5>
+                    <h5>Asthma/COPD (923)</h5>
+                    <h5>Auto Immune Disease (349)</h5>
+                    <h5>Ayurvedic Medicine (69)</h5>
+                    <h4><b>B</b></h4>
+                    <h5>Bacterial Infections (2427)</h5>
+                    <h5>Bladder And Prostate Disorders (441)</h5>
+                    <h5>Bleeding Disorders (208)</h5>
+                    <h5>Blood Clot (852)</h5>
+                    <h5>Bone Metabolism (124)</h5>
+                    <h5>Burns (6)</h5>
+                    <h4><b>C</b></h4>
+                    <h5>CNS stimulants (1)</h5>
+                    <h5>Cancer/Oncology (1529)</h5>
+                    <h5>Cardiac Arrest (0)</h5>
+                    <h5>Cholelithiasis/Gall Stones (151)</h5>
+                    <h5>Cleanser (205)</h5>
+                    <h5>Colon Cleanser (3)</h5>
+                    <h5>Constipation (384)</h5>
+                    <h5>Contraception (96)</h5>
+                    <h5>Cough And Cold (1380)</h5>
+                    <h5>Crack (1)</h5>
+                    <h4><b>D</b></h4>
+                    <h5>Denture Adhesive (5)</h5>
+                    <h5>Depression (636)</h5>
+                    <h5>Diabetes (5677)</h5>
+                    <h5>Diagnostic (11)</h5>
+                    <h5>Diarrhoea (374)</h5>
+                    <h5>Digestion (182)</h5>
+                </div>
+                <div class="col-md-3">
+                    <h5>Dry Eye (322)</h5>
+                    <h5>Dry Skin (832)</h5>
+                    <h4><b>E</b></h4>
+                    <h5>Ear Conditions (88)</h5>
+                    <h5>Electrolytes (3)</h5>
+                    <h5>Epilepsy/Convulsion (1162)</h5>
+                    <h5>Eye Infections (158)</h5>
+                    <h5>Eye conditions (529)</h5>
+                    <h4><b>F</b></h4>
+                    <h5>Fever (471)</h5>
+                    <h5>Fungal (1368)</h5>
+                    <h5>Fungal Infections (2063)</h5>
+                    <h4><b>G</b></h4>
+                    <h5>Gastro Intestinal Motility Disorders (78)</h5>
+                    <h5>General-P (108)</h5>
+                    <h5>Glaucoma (233)</h5>
+                    <h5>Gout (159)</h5>
+                    <h4><b>H</b></h4>
+                    <h5>Haematopoiesis (164)</h5>
+                    <h5>Haemorrhoid (60)</h5>
+                    <h5>Hair Color (8)</h5>
+                    <h5>Hair Loss (367)</h5>
+                    <h5>Head Lice (2)</h5>
+                    <h5>Heart Failure (54)</h5>
+                    <h5>Hepatitis B Infection (9)</h5>
+                    <h5>High Cholesterol (1989)</h5>
+                    <h5>Hirsutism (5)</h5>
+                    <h5>Hormonal Therapy (1410)</h5>
+                    <h5>Hyperpigmentation (238)</h5>
+                    <h5>Hypertension (5218)</h5>
+                    <h5>Hyperthyroidism (26)</h5>
+                    <h5>Hypnosis (6)</h5>
+                    <h5>Hyponatremia (23)</h5>
+                    <h5>Hypotension (34)</h5>
+                    <h5>Hypothyroidism (156)</h5>
+                    <h4><b>I</b></h4>
+                    <h5>Idiopathic Pulmonary Fibrosis (46)</h5>
+                    <h5>Immune Sera (0)</h5>
+                    <h5>Immune Suppression (54)</h5>
+                    <h5>Immunoglobulins (19)</h5>
+                    <h5>Impotence/Erectile Dysfunction (Ed) (158)</h5>
+                    <h5>Infection (4733)</h5>
+                    <h5>Inhaler/Nebulizer (1)</h5>
+                    <h5>Insulin Pen (Device) (0)</h5>
+                    <h5>Intermittent Claudication (29)</h5>
+                    <h5>Iron Supplement/Anaemia (0)</h5>
+                </div>
+                <div class="col-md-3">
+                    <h4><b>K</b></h4>
+                    <h5>Kidney Disease/Stones (170)</h5>
+                    <h4><b>L</b></h4>
+                    <h5>LYMPHOEDEMA (1)</h5>
+                    <h5>Leprosy (4)</h5>
+                    <h5>Liver Diseases (136)</h5>
+                    <h5>Liver Supplement (0)</h5>
+                    <h5>Lubrication (3)</h5>
+                    <h4><b>M</b></h4>
+                    <h5>Malarial (225)</h5>
+                    <h5>Melasma (7)</h5>
+                    <h5>Migraine (170)</h5>
+                    <h5>Multiple Sclerosis (7)</h5>
+                    <h5>Muscle Cramps/Spasticity (349)</h5>
+                    <h5>Muscle Spasm (438)</h5>
+                    <h5>Myasthenia Gravis (7)</h5>
+                    <h5>Mydriasis (51)</h5>
+                    <h4><b>N</b></h4>
+                    <h5>Nappy Rash (3)</h5>
+                    <h5>Nasal Congestion (243)</h5>
+                    <h5>Neuropathic Pain (949)</h5>
+                    <h5>Nootropics And Neurotrophics (308)</h5>
+                    <h4><b>O</b></h4>
+                    <h5>Obese (5)</h5>
+                    <h5>Obesity (2)</h5>
+                    <h5>Oral Care (322)</h5>
+                    <h5>Osteoporosis (95)</h5>
+                    <h4><b>P</b></h4>
+                    <h5>Pain relief (2812)</h5>
+                    <h5>Parasitic Worms (259)</h5>
+                    <h5>Parkinsonism (160)</h5>
+                    <h5>Patanjali Ayurvedic (1)</h5>
+                    <h5>Pen (Device) (0)</h5>
+                    <h5>Peripheral Hypertension (17)</h5>
+                    <h5>Peripheral Vascular Disease (10)</h5>
+                    <h5>Poisoning/Overdose (56)</h5>
+                    <h5>Polycystic ovary syndrome(PCOS) (2)</h5>
+                    <h5>Pregnancy Testing Kit (6)</h5>
+                    <h5>Premature Ejaculation (1)</h5>
+                    <h5>Psoriasis (10)</h5>
+                    <h5>Psoriasis/Seborrhea/Ichthyosis (148)</h5>
+                    <h5>Psychosis (304)</h5>
+                    <h5>Pulmonary Arterial Hypertension (Pah) (2)</h5>
+                </div>
+                <div class="col-md-3">
+                    <h4><b>R</b></h4>
+                    <h5>Rabies (13)</h5>
+                    <h5>Rheumatoid Arthritis (17)</h5>
+                    <h4><b>S</b></h4>
+                    <h5>Sanitizer (11)</h5>
+                    <h5>Scabies (120)</h5>
+                    <h5>Scar (18)</h5>
+                    <h5>Schizophrenia (469)</h5>
+                    <h5>Skin Infections (1226)</h5>
+                    <h5>Smoking cessation (16)</h5>
+                    <h5>Stretch Marks (18)</h5>
+                    <h5>Sun Protectors (28)</h5>
+                    <h5>Sunscreen Preparations (119)</h5>
+                    <h5>Supplements (6116)</h5>
+                    <h5>Surgicals (25)</h5>
+                    <h5>Syringe (0)</h5>
+                    <h4><b>T</b></h4>
+                    <h5>Targeted Cancer Therapy (0)</h5>
+                    <h5>Tetanus (3)</h5>
+                    <h5>Thrombotic Disorder (152)</h5>
+                    <h5>Tuberculosis (Tb) (0)</h5>
+                    <h4><b>U</b></h4>
+                    <h5>Ulcer/Reflux/Flatulence (2665)</h5>
+                    <h5>Ulcerative Colitis/Bowel Inflammatory Disease (123)</h5>
+                    <h5>Urinary Retention (92)</h5>
+                    <h5>Uterus Conditions (75)</h5>
+                    <h5>Uti Infections (6)</h5>
+                    <h4><b>V</b></h4>
+                    <h5>Vaccines (124)</h5>
+                    <h5>Vaginal Capsules (1)</h5>
+                    <h5>Vaginal Conditions (68)</h5>
+                    <h5>Varicose Veins (25)</h5>
+                    <h5>Vertigo (247)</h5>
+                    <h5>Viral infections (419)</h5>
+                    <h5>Vitamin B12 (0)</h5>
+                    <h5>Vitamin C/Supplements (1)</h5>
+                    <h5>Vitamin D3 (0)</h5>
+                    <h5>Vitamin E (0)</h5>
+                    <h5>Vitiligo (13)</h5>
+                    <h5>Vomitting/Emesis (405)</h5>
+                    <h4><b>W</b></h4>
+                    <h5>Warts/Calluses/Other Skin Lesion (27)</h5>
+                    <h5>Weight Loss (Pharma) (29)</h5>
+                    <h5>Wound Care (182)</h5>
+                    <h5>Wrinkle/Anti Ageing (19)</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"><a href="index.html" style="color: rgb(48, 167, 129);text-decoration: none;font-family: Candara;"><h1><i class="fa fa-heartbeat" aria-hidden="true"></i>&nbsp;&nbsp;Heal Plus</h1></a></div>
+            <div class="col-md-8" style="margin-top: 2%;"><p>Heal Plus is one of India's most trusted pharmacies, dispensing quality medicines at reasonable prices to over 7 million happy customers - PAN India.</p></div>
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="point"><b>COMAPNY</b></h5>
+                <h5 class="point">About Heal Plus</h5>
+                <h5 class="point">Customers Speak</h5>
+                <h5 class="point">in the News</h5>
+                <h5 class="point">Career</h5>
+                <h5 class="point">Terms and Conditionds</h5>
+                <h5 class="point">Privacy Policy</h5>
+                <h5 class="point">Fees and payments policy</h5>
+                <h5 class="point">Shipping and delivery Policy</h5>
+                <h5 class="point">Return, refund and Cancellation Policy</h5>
+                <h5 class="point">Contact</h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="point"><b>SHIPPING</b></h5>
+                <h5 class="point">Browse by A-Z</h5>
+                <h5 class="point">Browse by Manufactures</h5>
+                <h5 class="point">Health Articles</h5>
+                <h5 class="point">Offers and Coupons</h5>
+                <h5 class="point">FAQs</h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="point"><b>SOCIAL</b></h5>
+                <h5 class="point">Patients Alike</h5>
+                <h5 class="point">Facebook</h5>
+                <h5 class="point">Twitter</h5>
+                <h5 class="point">LinkedIn</h5>
+                <h5 class="point">Youtube</h5>
+                <h5 class="point">Refer & Earn</h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="point"><b>SUBSCRIBE TO OUR NEWSLETTER</b></h5>
+                <h5 class="point">Get a free subscription to our health and fitness tip and stay tuned to our latest offers</h5>
+                <br>
+                <input class="form-control" type="email" placeholder="Enter your Email">
+                <br>
+                <button class="btn form-control" style="background-color: rgb(48, 167, 129);color: white;">Submit</button>
+            </div>
+        </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <div class="text-center">Copyright &copy; 2022. All Rights are Reserved</div>
+    </div>
